@@ -1,0 +1,44 @@
+# ROS / colcon generated output
+build/
+install/
+log/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Native build artifacts
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.so
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.aws/
+.vscode/
+.idea/
+.DS_Store
+
+# Local data: retain root README and second-level directory placeholders
+/data/**
+!/data/*/
+!/data/*/.gitkeep
+!/data/README.md
+
+# Model weights: retain root README and second-level directory placeholders
+/models/**
+!/models/*/
+!/models/*/.gitkeep
+!/models/README.md
